@@ -1,0 +1,3 @@
+experiment,model,input_tokens,output_tokens,ttft_ms,decode_tps,total_latency_s,peak_vram_mib
+fp16_baseline,HuggingFaceTB/SmolLM2-360M-Instruct,39,64,150.06,13.91,4.678,718.04
+4bit_nf4,HuggingFaceTB/SmolLM2-360M-Instruct,39,64,59.89,24.98,2.562,266.04
